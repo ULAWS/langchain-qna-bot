@@ -10,8 +10,9 @@ The project is divided into **client** and **server** sections
 To run->
 
 1. `cd server`
-2. `pip install -r requirements.txt`
-3. `uvicorn main:app --reload`
+2. Add your `OPEN_API_KEY` to `.env` file
+3. `pip install -r requirements.txt`
+4. `uvicorn main:app --reload`
 
 ## Client
 
